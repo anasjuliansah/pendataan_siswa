@@ -66,10 +66,12 @@ if (isset($_SESSION['login'])) {
   </div>
 
   <!-- javascript -->
-  <script src="<?= url('assets/vendor/'); ?>jquery/jquery-3.5.1.js"></script>
-  <script src="<?= url('assets/vendor/'); ?>popper/popper.min.js"></script>
-  <script src="<?= url('assets/vendor/'); ?>bootstrap/js/bootstrap.min.js"></script>
-  <script src="<?= url('assets/vendor/'); ?>sweetalert/js/sweetalert.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.12.5/sweetalert2.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
   <script src="<?= url('assets/'); ?>js/script.js"></script>
 
 </body>
